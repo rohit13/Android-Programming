@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    tools:context="com.example.sharm_000.homework3.CoverPageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/aboutme"
+        android:textAllCaps="false"
+        android:background="@color/colorTextPrimary"
+        android:textColor="@color/colorTabPrimary"
+        android:layout_width="200dp"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:text="About Me"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/welcome"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_above="@id/aboutme"/>
+    <Button
+        android:id="@+id/task2"
+        android:textAllCaps="false"
+        android:background="@color/colorTextPrimary"
+        android:textColor="@color/colorTabPrimary"
+        android:layout_width="200dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutme"
+        android:text="Task 2-View Pager"/>
+    <Button
+        android:id="@+id/task3"
+        android:textAllCaps="false"
+        android:background="@color/colorTextPrimary"
+        android:textColor="@color/colorTabPrimary"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/task2"
+        android:text="Task 3-Master Detail"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rohit Sharma - Homework3</string>
+    <string name="title_viewpager">View Pager</string>
+    <string name="title_masterDetail">Master/Detail View</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
